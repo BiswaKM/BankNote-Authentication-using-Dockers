@@ -1,5 +1,0 @@
-FROM continuumio/anaconda3:4.4.0
-ADD . /code
-WORKDIR /code
-RUN pip install -r requirements.txt
-CMD ["python","flasgger_api.py"]
